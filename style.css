@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(218, 218, 218);
+}
+
+#title{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    /* font-weight: bold; */
+}
+
+#screen_container{
+    border: black solid;
+    border-radius: 30px;
+    background-color: white;
+    width: 500px;
+}
+
+#number{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    margin: 10px 0;
+    /* box-shadow: 0 2px 2px 0 gray; */
+    text-shadow: 2px 2px gray;
+}
+
+#button_container{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    row-gap: 10px;
+    place-items: center;
+    margin-bottom: 10px;
+}
+
+.btnGroup{
+    margin: 0 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 7px;
+}
+
+#btnStart{
+    background-color: rgb(9, 255, 0);
+}
+
+#btnStop{
+    background-color: red;
+}
+
+#btnReset{
+    background-color: rgb(0, 183, 255);
+}
+
+#btnStart:hover{
+    background-color: rgb(128, 255, 124);
+}
+
+#btnStop:hover{
+    background-color: rgb(255, 123, 123);
+}
+
+#btnReset:hover{
+    background-color: rgb(121, 217, 255);
+}
+
+#btnStart:active{
+    background-color: rgb(7, 196, 0);
+}
+
+#btnStop:active{
+    background-color: rgb(197, 0, 0);
+}
+
+#btnReset:active{
+    background-color: rgb(0, 137, 190);
+}
+
+#lock{
+    transition-duration: 0.1s;
+    transform: translate(0, -5px);
+    opacity: 0%;
+}
+
+/* #lock:hover{
+    transform: translate(0, 0);
+    opacity: 100%;
+} */
